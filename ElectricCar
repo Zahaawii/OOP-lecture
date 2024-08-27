@@ -1,0 +1,45 @@
+package tester;
+
+public class ElectricCar {
+
+	private String batteri;
+	private int kørsel;
+	private int batteriKM;
+	
+	public ElectricCar(String batteri, int kørsel, int batteriKM) {
+		this.batteri = batteri;
+		this.kørsel = kørsel;
+		this.batteriKM = batteriKM;
+	}
+	public String getBatteri() {
+		return batteri;
+	}
+	
+	public void setBatteri(String batteri) {
+		this.batteri = batteri;
+	}
+	
+	public int getKørsel() {
+		return kørsel;
+	}
+	
+	public void setKørsel(int kørsel) {
+		this.kørsel = kørsel;
+	}
+	
+	public int getBatteriKM() {
+		return batteriKM;
+	}
+	
+	public void setBatteriKM(int batteriKM) {
+		this.batteriKM = batteriKM;
+	}
+	
+	
+	public void test() {
+		System.out.println("Batteri: " + batteri + ", kørsel " + kørsel + ", batteriKM " + batteriKM);
+	}
+
+}
+
+
